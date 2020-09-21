@@ -1,0 +1,522 @@
+@media (min-width:992px){
+    /*header*/
+    #header .navbar{
+        background-color:#121D38;
+    }
+
+    #header .nav-link{
+        margin-right:20px;
+        font-weight: bold;
+        color:white;
+    }
+
+    #header .nav-link:hover::after{
+        content:'';
+        display: block;
+        border-bottom: 2px white solid;
+        width: 50%;
+        margin:auto;
+        padding-bottom:5px;
+        margin-bottom: -7px;
+    }
+    
+
+    /*banner*/
+    #banner{
+        background-color:#6D85C2;
+        width: auto;
+        height: 750px;
+        padding-top: 200px;
+    }
+
+    #banner .imgbanner{
+        width:500px;
+        height:auto;
+        padding-bottom:150px;
+    }
+
+    #banner .btn btn-outline-primary{
+        background-color: rgb(219, 157, 23)
+        color:white;
+    }
+
+    #visual .visual1{
+        width: 125%;
+        height: auto;
+        margin-left: -120px;
+        margin-top: -175px;
+        margin-bottom: 20px;
+    }
+
+    /* jenis-layanan */
+
+    #banner-2{
+        background-color:rgb(218, 115, 132);
+        width:100%;
+        height: 600px;
+        padding-top: 130px;  
+    }
+
+    #banner-2 h1{
+        padding-bottom: 30px;
+        font-size:35px;
+    }
+
+    #banner-2 h6{
+        font-size: 20px;
+    }
+
+    #banner-2 img{
+        width: 450px;
+        height:auto;
+    }
+
+    
+    #jenis-layanan{
+        background-color: #C4C4C4;
+        padding-top: 85px;
+        padding-bottom: 85px;
+    }
+
+    #jenis-layanan .img-yes,
+    #jenis-layanan .img-reg{
+        width: 150px;
+        height: auto;
+    }
+
+    #jenis-layanan h1,
+    #ongkir1 h1,
+    #ongkir2 h1,
+    #ulasan-rating h1{
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    #jenis-layanan h6,
+    #ongkir1 h6,
+    #ongkir2 h6{
+        font-size: 18px;
+    }
+
+    #jenis-layanan .yes,
+    #jenis-layanan .reg{
+    text-align: center;
+    width: 450px;
+    height: 550px;
+    background: #F7F7F7;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.75);
+    border-radius: 25px;   
+    padding-top: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+    }
+
+   #jenis-layanan .btn-warning,
+   #ongkir1 .btn-outline-warning,
+   #ongkir1 .btn-warning,
+   #ongkir2 .btn-outline-warning,
+   #ongkir2 .btn-warning,
+   #ulasan-rating .btn-warning{
+       height: auto;
+       width: 200px;
+   }
+
+   #ongkir1 .btn-outline-warning:hover,
+   #ongkir2 .btn-outline-warning:hover{
+       height: auto;
+       width: 200px;
+       background-color: rgb(172, 128, 8);
+   }
+
+    /* avenger */
+    #avenger .img-avenger{
+        /* text-align: center; */
+        /* padding: 85px; */
+        width: 100%;
+        height:auto;    
+        position: relative;
+        margin-top: 85px;
+
+        /* position: fixed; */
+    }
+
+        /* footer2 */
+        #footer2{
+            padding: 50px;
+            margin-top: -400px;
+            background-color:#121D38;
+            width: 100%;
+            height: 400px;
+            position:relative;
+            z-index: 1;
+            color:white;
+        }
+    
+    /*ongkir*/
+
+     #ongkir .bg-ongkir{
+         margin-top: -50px;
+         margin-bottom: 50px;
+        width: 100%;
+        height: 478.5px;
+        background-color: white;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+        padding-top: 5opx ;
+        padding-bottom: 50px;
+        padding-right: 25px;
+        padding-left:25px;
+    }
+
+    #ongkir h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    }
+
+    #ongkir h6{
+  font-style: normal;
+font-weight: normal;
+font-size: 15px;
+    }
+
+    #ongkir .form-control{
+        font-style: normal;
+font-weight: normal;
+font-size: 12px;
+    }
+
+
+    #ongkir .girl{
+        width: auto;
+        height: 250px;
+        padding-right: 150px;
+        padding-left: 150px;
+    }
+
+    #ongkir .bg-ongkir .btn-outline-warning{
+    width: 245px;
+    height: auto;
+    left: 185px;
+    top: 482px;
+    font-size: 12px;
+    text-align: center;
+    }
+
+    #ongkir .bg-ongkir .btn-outline-warning:hover{
+        width: 245px;
+        height: auto;
+        left: 185px;
+        top: 482px;
+        font-size: 12px;
+        text-align: center;
+        background-color:turquoise ;
+        border: none;
+        }
+
+    #ongkir .btn-warning{
+    width: 245px;
+    height: auto;
+    left: 185px;
+    top: 482px; 
+    font-size: 12px;
+    text-align: center;
+    }
+
+    #ongkir .btn-warning:hover{
+        width: 245px;
+        height: auto;
+        left: 185px;
+        top: 482px; 
+        font-size: 12px;
+        text-align: center;
+        }    
+    /*kenapa harus*/
+    #kenapa{
+        margin-bottom: 50px;
+    }
+
+    #kenapa h1 {
+        text-align: center;
+        font-size: 30px;
+        font-weight:bold;
+    }
+
+    /*kerja sama*/
+    #ks{   
+        background-color: #C4C4C4;
+        width: 100%;
+        height: 420px;
+        padding-bottom:50px;
+        padding-top: 50px;
+    }
+
+    #ks .gks{
+        width: auto;
+        height:300px;
+        text-align: center;
+    }
+
+    #ks h1{ 
+        padding-top:75px;
+        font-size: 20px;
+    }
+
+    #ks h6{
+        font-size: 15px;
+    }
+
+    /*timbangan*/
+    #timbangan-akurat{
+        margin-top: 100px;
+    }
+
+    #timbangan-akurat h1 {
+        padding-top: 80px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    #timbangan-akurat h6{
+        font-size: 15px;
+    }
+
+    #timbangan-akurat .timbangan{
+        width: auto;
+        height: 300px;
+        text-align:center;
+    }
+
+    /*kirim cepat*/
+    #kirim-cepat{
+        background-color: #C4C4C4;
+        width: 100%;
+        height: 420px;
+        padding-bottom:50px;
+        padding-top: 50px;
+    }
+
+    #kirim-cepat{
+        margin-top: 100px;
+    }
+
+    #kirim-cepat .kirimcepat{
+        width: auto;
+        height: 300px;
+    }
+
+    #kirim-cepat h1{
+        padding-top: 80px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    /*delivery*/
+    #delivery{
+        width: 100%;
+        height: 300px;
+        padding-bottom:50px;
+        padding-top: 50px;
+    }
+
+    #delivery h1{
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #delivery h6{
+        font-size: 15px;
+    }
+
+    #delivery .titikjemput{
+        width: auto;
+        height: 300px;
+    }
+    
+    /*kualitas*/
+    #kualitas{
+        margin-top:100px;
+        background-color: #D0B8F2;
+        width:auto;
+        height: 500x;
+    }
+
+    #kualitas h1{
+        font-size: 25px;
+        font-weight: bold;
+        padding-top: 75px;
+        border-bottom: 2px solid white;
+    }
+
+    #kualitas h6{
+        font-size: 15px;
+    }
+
+    #kualitas .kualitaskurir{
+        width: auto ;
+        height: 400px;
+    }
+
+    /*rating*/
+    #rating{
+        margin-top: 40px;
+        width: 100%;
+        height: 420px;
+    }
+
+    #rating h1{
+        font-size: 25px;
+        font-weight:bold;
+        padding-bottom: 40px;
+        text-align:center;
+    }
+
+    #rating h6{
+        font-size: 15px;
+    }
+
+    #rating .col1{
+        margin-right: 25px;
+    }
+
+    #rating .rating1,
+    #rating .rating2 {
+        padding:100px 20px;
+        width: 250px;
+        height: auto;
+        text-align: center;
+        background: white;
+        box-shadow: 0 0 15px  rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+    }
+
+    /*footer*/
+    #footer{
+        padding: 50px;
+        margin-top: 100px;
+        background-color:#121D38;
+        width: 100%;
+        height: 400px;
+    }
+
+    #footer .sosmed img,
+    #footer2  .contact-sosmed img{
+        width: 50px;
+        height: auto;
+        padding-top: 100px;
+    }
+
+    #footer h6,
+    #footer2 .h6{
+        color:white;
+        font-size: 15px;
+    }
+
+#footer .company
+{
+    padding-left: 50px;
+}
+
+  
+    #footer .footer2,
+    #footer2 .footer-sosmed{
+        padding-top: 100px;
+        color:white;
+
+    }
+
+
+
+
+    /* halaman informasi  */
+    #halaman-informasi{
+        text-align: center;
+        background-color: #c4c4c4;
+        width: auto;
+        height: 530px;
+        padding: 60px;
+    }
+
+    #halaman-informasi .img-error{
+        width: 250px;
+        height: auto;
+    }
+
+    #halaman-informasi h1{
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    /* halaman-yes */
+    #halaman-yes{
+        text-align: center;
+        background-color: #ffffff;
+        width: auto;
+        height: auto;
+        padding-top:100px;
+        padding-bottom: 100px;
+    }
+
+    #ongkir1,
+    #ongkir2,
+    #ulasan-rating{
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    #ongkir1 .bg-ongkir1,
+    #ongkir2 .bg-ongkir2,
+    #ulasan-rating .u-rating{
+        /* text-align: center; */
+       width: 100%;
+       height: auto;
+       background-color: white;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        padding: 50px;
+    }
+
+    #ongkir1 .cek-ongkir,
+    #ongkir2 .cek-ongkir2,
+    #ulasan-rating .u-rating{
+        padding-top: 50px ;
+        padding-bottom: 50px;
+        padding-right: 25px;
+        padding-left:25px;
+    }
+
+    #ongkir1 h1,
+    #ongkir2 h1,
+    #ulasan-rating h1{
+        margin-bottom: 40px;
+    }
+
+    #ongkir1 .bg-ongkir1 h6,
+    #ongkir2 .bg-ongkir2 h6{
+         padding-bottom: 25px;
+    }
+
+
+    #ongkir1 .form-control,
+    #ongkir2 .form-control,
+    #ulasan-rating .form-group h6{
+        font-size:15px;
+    }
+
+    /* ulasan rating */
+    #ulasan-rating h6{
+        text-align: left !important;
+    }
+
+    #ulasan-rating .star{
+        margin-bottom: 20px;
+
+    }
+
+
+
+
+
+}

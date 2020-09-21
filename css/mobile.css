@@ -1,0 +1,582 @@
+@media (max-width: 992px) {
+  /*header*/
+  #header .navbar {
+    background-color: #121d38;
+  }
+
+  #header img {
+    height: 30px;
+    width: auto;
+  }
+
+  #header .nav-link {
+    margin-right: 20px;
+    font-weight: bold;
+    color: white;
+  }
+
+  #header .nav-link:hover:after {
+    content: "";
+    display: block;
+    border-bottom: 2px white solid;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -7px;
+  }
+
+  /*banner*/
+  #banner {
+    background-color: #6d85c2;
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+  }
+
+  #banner h1 {
+    font-size: 20px;
+  }
+
+  #banner p {
+    font-size: 12px;
+  }
+
+  #banner .imgbanner{
+    width: auto;
+    height: 175px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 70px;
+  }
+
+  #banner .btn-outline-primary,
+  #kirim-cepat .btn-warning,
+  #ks .btn-warning,
+  #timbangan-akurat .btn-warning,
+  #delivery .btn-warning,
+  #kualitas .btn-warning {
+    font-size: 10px;
+    text-align: center;
+    background-color: rgb(246, 171, 8);
+    color: white;
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  #visual .visual1 {
+    width: 120%;
+    height: auto;
+    margin-top: -70px;
+    margin-left: -20px;
+  }
+
+  /* jenis-layanan */
+
+  #banner-2 {
+    background-color: rgb(218, 115, 132);
+    width: 100%;
+    height: 430px;
+    padding-top: 25px;
+  }
+
+  #banner-2 h1 {
+    padding-bottom: 20px;
+    font-size: 20px;
+  }
+
+  #banner-2 h6 {
+    font-size: 12px;
+  }
+
+  #banner-2 img {
+    width: auto;
+    height: 200px;
+    text-align: center;
+    padding-right:50px;
+    padding-left: 20px;
+  }
+
+  /* jenis-layanan */
+
+  #jenis-layanan {
+    background-color: #ffffff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+    height: 600px;
+  }
+
+  #jenis-layanan .img-yes,
+  #jenis-layanan .img-reg {
+    width: 80px;
+    height: auto;
+  }
+
+  #jenis-layanan h1,
+  #ongkir1 h1,
+  #ongkir2 h1,
+  #ulasan-rating h1 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #jenis-layanan h6,
+  #ongkir1 h6,
+  #ongkir2 h6 {
+    font-size: 12px;
+  }
+
+  #jenis-layanan .yes {
+    text-align: center;
+    width: 280px;
+    height: 300px;
+    background: #f7f7f7;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.75);
+    border-radius: 25px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+  }
+
+  #jenis-layanan .reg{
+    text-align: center;
+    width: 280px;
+    height: 300px;
+    background: #f7f7f7;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.75);
+    border-radius: 25px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+  }
+
+  #jenis-layanan .btn-warning,
+  #ongkir1 .btn-outline-warning,
+  #ongkir1 .btn-warning,
+  #ongkir2 .btn-outline-warning,
+  #ongkir2 .btn-warning,
+  #ulasan-rating .btn-warning {
+    height: auto;
+    width: 200px;
+    font-size: 12px;
+    margin: 7px;
+  }
+
+
+  #ongkir1 .btn-outline-warning:hover,
+  #ongkir2 .btn-outline-warning:hover {
+    height: auto;
+    width: 200px;
+    size: 12px;
+    background-color: rgb(172, 128, 8);
+  }
+
+  /* avenger */
+  #avenger .img-avenger {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 80px;
+  }
+
+  /* footer2 */
+  #footer2 {
+    padding: 50px;
+    margin-top: -100px;
+    background-color: #121d38;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    z-index: 1;
+    color: white;
+  }
+
+  /*ongkir*/
+
+  #ongkir .bg-ongkir {
+    width: 100%;
+    height: 900px;
+    background-color: white;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: -25px;
+  }
+
+  #ongkir h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  #ongkir h6 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+  }
+
+  #ongkir .form-control,
+  #ongkir1 .bg-ongkir1 .form-control,
+  #ongkir2 .bg-ongkir2 .form-control{
+    /* font-style: normal; */
+    font-size: 12px;
+  }
+
+  #ongkir .girl {
+    width: auto;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 100px;
+    text-align: center;
+  }
+
+  #ongkir .bg-ongkir .btn-outline-warning {
+    width: 120px;
+    height: auto;
+    left: 185px;
+    top: 482px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  #ongkir .bg-ongkir .btn-outline-warning:hover {
+    width: 120px;
+    height: auto;
+    left: 185px;
+    top: 482px;
+    font-size: 12px;
+    text-align: center;
+    background-color: turquoise;
+    border: none;
+  }
+
+  #ongkir .btn-warning {
+    width: 120px;
+    height: auto;
+    left: 185px;
+    top: 482px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  #ongkir .btn-warning:hover {
+    width: 120px;
+    height: auto;
+    left: 185px;
+    top: 482px;
+    font-size: 12px;
+    text-align: center;
+  }
+  /*kenapa harus*/
+  #kenapa {
+    margin-bottom: 15px;
+  }
+
+  #kenapa h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  /*kerja sama*/
+  #ks {
+    background-color: #c4c4c4;
+    width: 100%;
+    height: 550px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+
+  #ks .gks {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  #ks h1 {
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #ks h6 {
+    font-size: 12px;
+    padding-top: -20px;
+  }
+
+  /*timbangan*/
+  #timbangan-akurat {
+    margin-top: 25px;
+  }
+
+  #timbangan-akurat h1 {
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #timbangan-akurat h6 {
+    font-size: 12px;
+  }
+
+  #timbangan-akurat .timbangan {
+    width: auto;
+    height: 300px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 65px;
+  }
+
+  /*kirim cepat*/
+  #kirim-cepat {
+    background-color: #d2d2db;
+    width: 100%;
+    height: 530px;
+    padding-bottom: 25px;
+    margin-top: -10px;
+  }
+
+  #kirim-cepat .kirimcepat {
+    width: auto;
+    height: 300px;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 85x;
+  }
+
+  #kirim-cepat h1 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  /*delivery*/
+  #delivery {
+    width: 100%;
+    height: 420px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+  }
+
+  #delivery h1 {
+    padding-top: 25px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  #delivery h6 {
+    font-size: 15px;
+  }
+
+  #delivery .titikjemput {
+    width: auto;
+    height: 250px;
+    padding-top: 40px;
+  }
+
+  /*kualitas*/
+  #kualitas {
+    margin-top: 25px;
+    background-color: #d0b8f2;
+    width: 100%;
+    height: 500x;
+  }
+
+  #kualitas h1 {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 25px;
+    border-bottom: 2px solid white;
+  }
+
+  #kualitas h6 {
+    font-size: 15px;
+  }
+
+  #kualitas .kualitaskurir {
+    width: 115%;
+    height: auto;
+    padding-top: 25px;
+    margin-left: -25px;
+  }
+
+  /*rating*/
+  #rating {
+    margin-top: 10px;
+  }
+
+  #rating h1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #rating .line {
+    margin: 5px;
+  }
+
+  #rating .u-rating h6 {
+    font-size: 12px;
+  }
+
+  #rating .col1 {
+    margin-right: 25px;
+  }
+
+
+
+  #rating .btn-warning {
+    text-align: center !important;
+  }
+
+  #rating .rating1,
+  #rating .rating2 {
+    padding: 25px;
+    width: 220px;
+    height: auto;
+    text-align: center;
+    background: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-bottom: 25px;
+  }
+
+  /*footer*/
+  #footer,
+  #footer2 {
+    padding: 25px;
+    margin-top: 25px;
+    background-color: #121d38;
+    width: 100%;
+    height: 525px;
+  }
+
+  #footer .sosmed img,
+  #footer2 .contact-sosmed img {
+    width: 30px;
+    height: auto;
+    text-align: center;
+  }
+
+  #footer .logo,
+  #footer2 .logo {
+    width: auto;
+    height: 35px;
+  }
+
+  #footer h6,
+  #footer p,
+  #footer2 h6 {
+    color: white;
+    font-size: 12px;
+  }
+
+  #footer .office {
+    padding-left: 16px;
+  }
+
+  #footer .footer2,
+  #footer2 .footer-sosmed {
+    padding-top: 20px;
+    color: white;
+  }
+  /* halaman informasi  */
+
+  #halaman-informasi {
+    text-align: center;
+    background-color: #c4c4c4;
+    width: auto;
+    height: 350px;
+    padding: 25px;
+    margin-bottom: 25px;
+  }
+
+  #halaman-informasi .img-error {
+    width: auto;
+    height: 200px;
+  }
+
+  #halaman-informasi h1 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  /* halaman-yes */
+  #halaman-yes {
+    text-align: center;
+    background-color: #ffffff;
+    width: auto;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  #ongkir1,
+  #ongkir2,
+  #ulasan-rating {
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  #ulasan-rating .star{
+    height: auto;
+    width: 150px;
+  }
+
+  #ongkir1 .bg-ongkir1,
+  #ongkir2 .bg-ongkir2,
+  #ulasan-rating .u-rating {
+    /* text-align: center; */
+    width: 100%;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    padding: 50px;
+  }
+
+  #ongkir1 .cek-ongkir,
+  #ongkir2 .cek-ongkir2,
+  #ulasan-rating .u-rating {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  #ongkir1 h1,
+  #ongkir2 h1,
+  #ulasan-rating h1 {
+    margin-bottom: 40px;
+  }
+
+  #ongkir1 .bg-ongkir1 h6,
+  #ongkir2 .bg-ongkir2 h6 {
+    padding-bottom: 25px;
+  }
+
+  #ongkir1 .form-control,
+  #ongkir2 .form-control,
+  #ulasan-rating .form-group h6 {
+    font-size: 15px;
+  }
+
+  /* ulasan rating */
+  #ulasan-rating h6 {
+    text-align: left !important;
+  }
+}
